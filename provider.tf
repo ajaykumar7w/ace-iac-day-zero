@@ -3,7 +3,7 @@ provider "aviatrix" {
   username      = var.username
   password      = var.password
   skip_version_validation = false
-  version                 = "2.19.0"
+  version                 = "2.23.1"
 }
 
 provider "aws" {
