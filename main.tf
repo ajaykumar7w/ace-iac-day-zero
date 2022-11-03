@@ -83,4 +83,4 @@ resource "aviatrix_segmentation_network_domain" "BU2" {
   domain_name_2 = "BU2"
   depends_on    = [aviatrix_segmentation_network_domain.BU1, aviatrix_segmentation_network_domain.BU2]
 }
-}
+
